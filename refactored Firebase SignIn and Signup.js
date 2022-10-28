@@ -54,7 +54,7 @@ auth.onAuthStateChanged(user => {
             //loadingScreen.style.display = 'none';
         }
     } else {
-        // User is signed out
+        // User signed out
         if (privatePages.includes(currentPath)) {
             window.location.replace('/');
             const getstartedlinksignup = document.getElementById("getStarted");
